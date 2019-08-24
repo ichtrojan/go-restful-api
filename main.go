@@ -1,6 +1,7 @@
 package main
 
 import (
+	"go-restful-api/database"
 	"log"
 	"net/http"
 
@@ -9,9 +10,12 @@ import (
 )
 
 func main() {
+	database.Init()
+
 	route := mux.NewRouter()
 
 	route.HandleFunc("/", controller.Home)
+	route.HandleFunc("/add-user", controller.AddUser)
 
 	log.Fatal(http.ListenAndServe(":9090", route))
 }
