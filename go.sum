@@ -1,0 +1,3 @@
+github.com/gorilla/mux v1.7.3 h1:gnP5JzjVOuiZD07fKKToCAOjS0yOpj/qPETTXCCS6hw=
+github.com/gorilla/mux v1.7.3/go.mod h1:1lud6UwP+6orDFRuTfBEV8e9/aOM/c4fVVCaMa2zaAs=
+github.com/ichtrojan/go-restful-api v0.0.0-20190823160300-0cbcf0d4933c h1:fyVLGkmv40F64w8NtQQR7Ee5ETzMlMh41wBrFQhjP28=
