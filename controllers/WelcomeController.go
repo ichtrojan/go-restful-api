@@ -5,15 +5,10 @@ import (
 	"net/http"
 )
 
-type Welcome struct {
-	Message string
-	Status  int64
-}
-
 func Home(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
 
-	message := Welcome{
+	message := Response{
 		Message: "Welcome ❤️",
 		Status:  200,
 	}
